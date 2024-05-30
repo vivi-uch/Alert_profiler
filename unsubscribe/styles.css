@@ -1,0 +1,58 @@
+/* General */
+.blue-color{
+  background-color: #003399;
+}
+.blue-text{
+  color: #003399;
+}
+.white-text{
+  color: #fff;
+}
+
+/* blue-region */
+.blue-region{
+  height: 100px;
+  background-color: rgb(1, 1, 83);
+}
+
+/* horizontal line */
+.hr-line{
+  width: 100%;
+  border: 2px solid rgb(4, 4, 158);
+  height: 3px;
+}
+
+/* container */
+.container{
+  margin: 10px auto;
+  width: 52%;
+}
+
+/* profile icon */
+.fa-user{
+  padding: 5px;
+  border: 1px solid rgb(138, 137, 137);
+  background-color: rgb(236, 236, 236);
+  height: 100%;
+  color: #003399;
+}
+
+/* input focus */
+.input-div input:focus{
+  outline: 1px solid #268af5;
+}
+
+/* responsiveness */
+@media (max-width: 990px){
+  .container{
+    width: 75%;
+  }
+}
+@media (max-width:768px){
+  .container{
+    width: 90%;
+  }
+  .output .row{
+    gap: 1px;
+  }
+}
